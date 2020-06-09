@@ -25,7 +25,7 @@ The default is to point to the [wm-sasl-example](/pyconsumer/resources/env/wm-sa
 
 ```json
 {
-    "broker": "",
+    "kafka.bootstrap.servers": "",
     "auth": {
         "username": "",
         "password": ""
@@ -42,7 +42,7 @@ The default is to point to the [wm-sasl-example](/pyconsumer/resources/env/wm-sa
 }
 ```
 
-* `broker` - the hostname + port of the Kafka broker
+* `kafka.bootstrap.servers` - the hostname + port of the Kafka broker
 * `auth`
   * `username` - username for SASL authentication
   * `password` - password for SASL authentication

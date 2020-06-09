@@ -1,5 +1,5 @@
 {
-    "broker": "CHANGEME",
+    "kafka.bootstrap.servers": "CHANGEME",
     "auth": {
         "username": "CHANGEME",
         "password": "CHANGEME"
